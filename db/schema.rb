@@ -24,9 +24,6 @@ ActiveRecord::Schema.define(version: 20180216071058) do
   create_table "todos", force: :cascade do |t|
     t.string "title"
     t.string "created_by"
-    t.text "description"
-    t.integer "price"
-    t.boolean "is_active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
