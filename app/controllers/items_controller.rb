@@ -43,4 +43,4 @@ class ItemsController < ApplicationController
   def set_todo_item
     @item = @todo.items.find_by!(id: params[:id]) if @todo
   end
-ende
+end
