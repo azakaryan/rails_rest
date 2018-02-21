@@ -8,7 +8,4 @@ RSpec.describe Todo, type: :model do
   # ensure columns are present before saving
   it { should validate_presence_of(:title) }
   it { should validate_presence_of(:created_by) }
-  it { should validate_presence_of(:description) }
-  it { should validate_presence_of(:price) }
-  it { should validate_presence_of(:is_active) }
 end
